@@ -16,9 +16,9 @@ else:
 #es mayor o menor de edad
 #y por tanto, habilitada para
 #votar
-edad = 20
-documento = False
-if edad >= 18 and documento==True:
+edad = int(input("Ingrese su edad: "))
+documento = input ("Tiene documento? (SI/NO):")
+if edad >= 18 and documento == "SI":
     print("Usted es mayor de edad")
     print("Puede votar")
 else:
