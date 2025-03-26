@@ -67,9 +67,9 @@ salario_neto = 0
 
 if contrato == "a":
     print("Eligió: Contrato a termino indefinido ")
-    antiguedad = int(input("Ingrese antiguedad del empleado(años): "))
-    grado = int(input("Ingrese grado o escalafon(1-5): "))
-    salario_minimo = int(input("Ingrese valor del salario minimo: "))
+    antiguedad = int(input("Ingrese antiguedad del empleado(años):"))
+    grado = int(input("Ingrese grado o escalafon(1-5):"))
+    salario_minimo = int(input("Ingrese valor del salario minimo:"))
     salario_mensual = 0
     if grado == 1:
         salario_mensual = salario_minimo * 1.5
